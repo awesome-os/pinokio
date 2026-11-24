@@ -1,0 +1,36 @@
+{
+  "name": "@awesome-os/pinokio",
+  "version": "0.1.0",
+  "description": "Pinokio Virtual PC recipe runner re-engineered on Awesome-OS b8g-ghost CAS, Sectium Display, and shared debloated Python LLM stack",
+  "type": "module",
+  "main": "./src/index.mts",
+  "exports": {
+    ".": "./src/index.mts",
+    "./cas-interceptor": "./src/cas-interceptor.mts",
+    "./recipe-runner": "./src/recipe-runner.mts",
+    "./sectium-surface": "./src/sectium-surface.mts"
+  },
+  "bin": {
+    "pinokio": "./src/cli.mts"
+  },
+  "scripts": {
+    "test": "node --test test/pinokio-recipe.test.mts"
+  },
+  "keywords": [
+    "pinokio",
+    "awesome-os",
+    "b8g-ghost",
+    "cas",
+    "sectium",
+    "llm",
+    "recipes"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesome-os/pinokio.git"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "run": [
+    {
+      "method": "local.set",
+      "params": {
+        "app_name": "awesome-llm-studio",
+        "model_family": "llama-3.2-1b",
+        "venv_dir": "env"
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "venv": "{{local.venv_dir}}",
+        "env": {
+          "B8G_APP_NAME": "{{local.app_name}}"
+        },
+        "message": [
+          "pip install numpy pillow tokenizers safetensors",
+          "conda install -y cryptography lxml orjson pydantic-core tiktoken"
+        ]
+      }
+    },
+    {
+      "method": "notify",
+      "params": {
+        "html": "{{local.app_name}} ({{local.model_family}}) ready via b8g-ghost cas-v1 zero-conda hydration!"
+      }
+    }
+  ]
+}
