@@ -6,6 +6,29 @@ Run original Pinokio community recipes (`install.json`, `start.json`, `pinokio.j
 
 ---
 
+## Quick Install & Usage
+
+### Install via `pnpm` (or release tarball)
+
+```powershell
+pnpm add github:awesome-os/pinokio
+```
+
+Or download the latest SHA-256 verified archive from [`Releases`](https://github.com/awesome-os/pinokio/releases/latest).
+
+### Usage & Verification
+
+```powershell
+# Inspect or dry-run a Pinokio recipe with live b8g-ghost cas-v1 interception
+node src/cli.mts inspect examples/llm-app/install.json
+node src/cli.mts run examples/llm-app/install.json --dry-run
+
+# Verify locally (Node.js 22+)
+node --test
+```
+
+---
+
 ## Comparison: Legacy Pinokio vs. Awesome-OS Pinokio
 
 | Dimension | Legacy Pinokio | `@awesome-os/pinokio` |
