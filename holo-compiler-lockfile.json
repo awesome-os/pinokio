@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/pinokio",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/pinokio/pinokio-v0.2.0.tar.zst",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "3b6373251013ad8fecaafd60e40429d3a2e81ce0ea9e2bdd3d9ea06485943c7742679bb85ec7ffc188cb4ab559da13ec3018aa6aac1825e805e1a3387142d1b6",
+      "size": 16337,
+      "executable": false,
+      "blob": "v11/files/3b/3b6373251013ad8fecaafd60e40429d3a2e81ce0ea9e2bdd3d9ea06485943c7742679bb85ec7ffc188cb4ab559da13ec3018aa6aac1825e805e1a3387142d1b6",
+      "url": "https://github.com/awesome-os/pinokio/releases/download/v0.2.0/pinokio-v0.2.0.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/pinokio/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "5935518abbd0b30180568f0357dae3a5065aeda6542da9a2f03582a587dc1a310c9e097f3c42563621268e1f4d817e768b963a2f42484ae7539d93be517b7814",
+      "size": 89,
+      "executable": false,
+      "blob": "v11/files/59/5935518abbd0b30180568f0357dae3a5065aeda6542da9a2f03582a587dc1a310c9e097f3c42563621268e1f4d817e768b963a2f42484ae7539d93be517b7814",
+      "url": "https://github.com/awesome-os/pinokio/releases/download/v0.2.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/pinokio/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "71a49a808ff8e51b7208915c2739b81282eda10290d574f613a4058c2d1fcf4d1390d77783514a1f257529bffc68b5adfe6862381ab8f3774954aff8be3ecbde",
+      "size": 153,
+      "executable": false,
+      "blob": "v11/files/71/71a49a808ff8e51b7208915c2739b81282eda10290d574f613a4058c2d1fcf4d1390d77783514a1f257529bffc68b5adfe6862381ab8f3774954aff8be3ecbde",
+      "url": "https://github.com/awesome-os/pinokio/releases/download/v0.2.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
