@@ -89,3 +89,13 @@ node --test test/pinokio-recipe.test.mts
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/pinokio@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://node/pinokio?from=repository://github.com/awesome-os/pinokio@main"
+```
