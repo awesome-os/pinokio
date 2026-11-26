@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into https://github.com/awesome-os/agent-platform
+
 # `@awesome-os/pinokio`
 
 **Pinokio Virtual PC recipe runner re-engineered on Awesome-OS `b8g-ghost @ cas-v1`, Sectium Display, and our shared debloated Python LLM stack.**
